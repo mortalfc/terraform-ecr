@@ -1,0 +1,12 @@
+[
+    {
+      "name": "mlforeveryone-python",
+      "image": "service-first",
+      "cpu": 0,
+      "memory": 312,
+      "essential": true,
+      "command": [
+        "alembic", "upgrade", "head"
+      ]
+    }
+  ]
